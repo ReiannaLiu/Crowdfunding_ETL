@@ -67,7 +67,7 @@ Split the 'category&sub-category' column to create two new columns: 'category' a
 <br>
 
 Create one list for 'categories' and another for 'subcategories'.
-<img src = "Images/cat_subcat_list.png" width="2000"/>
+<img src = "Images/cat_subcat_list.png" width="2400"/>
 <br>
 <br>
 
@@ -83,7 +83,7 @@ Create NumPy arrays for 'categories' and 'subcategories'.
 <br>
 
 Use list comprehension to prepare the category and subcategory values and the create two DataFrames: one for category and another for subcategory.  
-<img src = "Images/cat_subcat_list.png" width="2000"/>  
+<img src = "Images/cat_subcat_list.png" width="2400"/>  
 <br>
 
 Category DataFrame
@@ -101,30 +101,35 @@ Export the category and subcategory DataFrames as two separate CSV files to the 
 <br>
 <br>
 <br>
+<br>
+<br>
 
 ## **Part 2.** 
 ##### Completed by O Dumbuya
 <br>
 
 Create a campaign DataFrame as a copy of the crowdfunding Dataframe with the added category and subcategory columns, and then check the head.
-<img src = "Images/crwdfnd_cat_split.png" width="1200"/>
+<img src = "Images/crwdfnd_cat_split.png" width="1600"/>
 <br>
 <br>
 
 i.  Rename the 'blurb', 'launched_at' and 'deadline' columns as 'description',   'launch_date' and 'end_date'.
+<br>
 ii. Convert the 'goal' and 'pledged' columns data types to float. 
-iii. Check that the data types were changed.
+<br>
+iii. Check that the columnn names and data types were changed.
 <img src = "Images/campaign_df_dtypes.png" width="500"/>
 <br>
 <br>
 i. Format the 'launch_date' and 'end_date' columns to YYYY-MM-DD format.
+<br>
 ii. Merge the campaign DataFrame to the category and subcategory DataFrames on category and subcategory, respectively.
+<br>
 iii. Drop the unwanted columns, and check the cleaned campaign Dataframe head. 
-<img src = "Images/campaign_df_clean.png" width="1600"/>
+<img src = "Images/campaign_df_clean.png" width="2000"/>
 <br>
 <br>
 Export the clean campaign DataFrame as a CSV file to the Resources folder. 
-<img src = "Images/crwdfnd_cat_split.png" width="1200"/>
 <br>
 <br>
 <br>
