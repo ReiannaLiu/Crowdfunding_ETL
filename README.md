@@ -185,14 +185,14 @@ Make a copy of the contacts DataFrame that was created when Pandas was used to r
 
 ---
 #### Usage
-1. Ensure that you have the appropriate SQLite and CSV files.
-2. Run the ""analysis.ipynb script in an appropriate code editor such as Jupyter Notebook. 
+1. Ensure that you have the appropriate CSV and XlSX files.
+2. Run the  script in an appropriate code editor such as Jupyter Notebook. 
 3. Run the app.py script in an appropriate code editor and render in a web browser such as Google Chrome with the necessary extensions, to optimize JSON, for example.
 
 #### Contributions
 Contributions to this project are highly encouraged! If you wish to contribute, please follow these guidelines:
 
-- Fork the sqlAlchemy-challenge repository and clone it locally.
+- Fork the crowdfunding_ETL repository and clone it locally.
 - Create a new branch for your feature or bug fix.
 - Commit your changes with descriptive commit messages.
 - Push your branch to your forked repository.
