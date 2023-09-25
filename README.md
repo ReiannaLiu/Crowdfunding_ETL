@@ -40,8 +40,9 @@ You will need the following software to run the ETL script:
 - PostgreSQL Database Server
 <br>
 
-### Project Structure
-### **Part 1.** 
+## Project Structure
+<br>
+## **Part 1.** 
 ##### Completed by R Liu
 <br>
 Use Pandas to read the crowdfunding.xlsx file into a DataFrame and check the head.
@@ -49,12 +50,12 @@ Use Pandas to read the crowdfunding.xlsx file into a DataFrame and check the hea
 <br>
 <br>
 
-Get the summary of crowdfunding DataFrame. 
+Get the summary of the crowdfunding DataFrame. 
 <img src = "Images/crwdfnd_dtypes.png" width="500"/>
 <br>
 <br>
 
-Check the crowndfunding DataFrame columns.
+Check the crowdfunding DataFrame columns.
 <img src = "Images/crwdfnd_cols.png" width="600"/>
 <br>
 <br>
@@ -64,31 +65,34 @@ Split the 'category&sub-category' column to create two new columns: 'category' a
 <br>
 <br>
 
-Create one list for 'catgeories' and another for 'subcategories'.
-<img src = "Images/cat_subcat_list.png" width="1400"/>
+Create one list for 'categories' and another for 'subcategories'.
+<img src = "Images/cat_subcat_list.png" width="2000"/>
 <br>
 <br>
 
 Get the number of distinct values in the 'categories' and 'subcategories' lists.
+<br>
 <img src = "Images/len_cat_subcat.png" width="100"/>
 <br>
 <br>
 
-Create NumPy arrays for categories and subcategories.
+Create NumPy arrays for 'categories' and 'subcategories'.
 <img src = "Images/cat_subcat_array.png" width="1000"/>
 <br>
 <br>
 
-Use list comprehension to prepare the category and subcategory values and the create two DataFrames for category and subcategory.  
+Use list comprehension to prepare the category and subcategory values and the create two DataFrames: one for category and another for subcategory.  
 <img src = "Images/cat_subcat_list.png" width="2000"/>  
 <br>
 
 Category DataFrame
-<img src = "Images/cat_df.png" width="600"/> 
+<br>
+<img src = "Images/cat_df.png" width="500"/> 
 <br>
 
 Subcategory DataFrame
-<img src = "Images/subcat_df.png" width="600"/> 
+<br>
+<img src = "Images/subcat_df.png" width="500"/> 
 <br>
 <br>
 
@@ -97,7 +101,7 @@ Export the category and subcategory DataFrames as two separate CSV files to the 
 <br>
 <br>
 
-### **Part 2.** 
+## **Part 2.** 
 ##### Completed by O Dumbuya
 <br>
 
