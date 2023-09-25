@@ -146,7 +146,7 @@ Use Pandas to read the contacts.xlsx file and check the head.
 <br>
 
 Convert each row of data to a dictionary and print out the results.
-<img src = "Images/contact_dict.png" width="2600"/>
+<img src = "Images/contact_dict.png" width="3000"/>
 <br>
 <br>
 
