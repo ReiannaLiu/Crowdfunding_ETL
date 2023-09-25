@@ -121,6 +121,7 @@ iii. Check that the columnn names and data types were changed.
 <img src = "Images/campaign_df_dtypes.png" width="500"/>
 <br>
 <br>
+<br>
 i. Format the 'launch_date' and 'end_date' columns to YYYY-MM-DD format.
 <br>
 ii. Merge the campaign DataFrame to the category and subcategory DataFrames on category and subcategory, respectively.
@@ -136,12 +137,8 @@ Export the clean campaign DataFrame as a CSV file to the Resources folder.
 
 ### **Part 3.** 
 ##### Completed by R Liu
-<br>
 
-
-##### Option 1-Pandas
-
-<br>
+### Option 1-Pandas
 
 Use Pandas to read the contacts.xlsx file and check the head.
 <img src = "Images/contact_df_head.png" width="1200"/>
@@ -149,7 +146,7 @@ Use Pandas to read the contacts.xlsx file and check the head.
 <br>
 
 Convert each row of data to a dictionary and print out the results.
-<img src = "Images/contact_dict.png" width="2000"/>
+<img src = "Images/contact_dict.png" width="2600"/>
 <br>
 <br>
 
@@ -159,15 +156,18 @@ Create a contacts DataFrame with the dictionary values and check the head.
 <br>
 
 Check the contact DataFrame data types.
-<img src = "Images/contact_dtypes.png" width="800"/>
+<img src = "Images/contact_dtypes.png" width="600"/>
 <br>
 <br>
 
 i. Split the 'name' column to create a 'first_name' column and a 'last_name' column.
+<br>
 ii. Drop the 'name' column. 
+<br>
 iii. Reorder the columns: 'contact_id', 'first_name', 'last_name', 'email'.
+<br>
 iv. Check the Dataframe head. 
-<img src = "Images/contact_df_clean_final.png" width="1200"/>
+<img src = "Images/contact_df_clean_final.png" width="1100"/>
 <br>
 <br>
 
@@ -176,7 +176,7 @@ Check the clean contacts DataFrame datatypes and export the DataFrame as a CSV f
 <br>
 <br>
 
-##### Option 2-Regex
+### Option 2-Regex
 <br>
 Make a copy of the contacts DataFrame that was created when Pandas was used to read the contacts.xlsx file in Option 1, and check the head.
 <img src = "Images/contact_df_head.png" width="1200"/>
