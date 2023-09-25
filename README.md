@@ -42,6 +42,7 @@ You will need the following software to run the ETL script:
 
 ## Project Structure
 <br>
+
 ## **Part 1.** 
 ##### Completed by R Liu
 <br>
