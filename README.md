@@ -273,6 +273,8 @@ Execute the crowdfunding_db_schema.sql script in pgAdmin 4 query tool, at the cr
 
 Execute the crowdfunding_db_queries.sql script in pgAdmin 4 query tool, one at a time, to check that each table has been succesfully created.
 <br>
+<br>
+<br>
 Subcategory Table
 <img src = "Images/subcat_table_chck.png" width="800"/>
 <br>
