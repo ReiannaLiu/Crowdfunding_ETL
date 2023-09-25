@@ -297,6 +297,8 @@ Campaign Table
 <img src = "Images/campaign_table_chck.png" width="1200"/>
 <br>
 <br>
+<br>
+<br>
 Open the pgAdmin 4 contextual menu for each table and use the import feature to load the tables in the order they were created in the schema file.
 <br>
 <br>
@@ -304,26 +306,35 @@ Open the pgAdmin 4 contextual menu for each table and use the import feature to 
 Execute the crowdfunding_db_queries.sql script in pgAdmin 4 query tool, one at a time, to check that each table has been succesfully loaded with its data. 
 <br>
 <br>
+<br>
 Subcategory Table
+<br>
+<br>
 <img src = "Images/subcat_table_load.png" width="600"/>
 <br>
 <br>
 <br>
 
 Category Table
+<br>
+<br>
 <img src = "Images/category_table_load.png" width="600"/>
 <br>
 <br>
 <br>
 
 Contacts Table
+<br>
+<br>
 <img src = "Images/contacts_table_load.png" width="600"/>
 <br>
 <br>
 <br>
 
 Campaign Table
-<img src = "Images/campaign_table_load.png" width="800"/>
+<br>
+<br>
+<img src = "Images/campaign_table_load.png" width="1200"/>
 <br>
 <br>
 <br>
