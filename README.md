@@ -314,6 +314,8 @@ Subcategory Table
 <br>
 <br>
 <br>
+<br>
+<br>
 
 Category Table
 <br>
@@ -322,6 +324,8 @@ Category Table
 <br>
 <br>
 <br>
+<br>
+<br> 
 
 Contacts Table
 <br>
@@ -330,11 +334,15 @@ Contacts Table
 <br>
 <br>
 <br>
+<br>
+<br>
 
 Campaign Table
 <br>
 <br>
 <img src = "Images/campaign_table_load.png" width="1200"/>
+<br>
+<br>
 <br>
 <br>
 <br>
