@@ -196,6 +196,7 @@ Extract the four-digit contact ID numbers, and add them to a new column 'contact
 <br>
 
 Check the datatypes.
+<br>
 <img src = "Images/contact_regex_check.png" width="500"/>
 <br>
 <br>
@@ -262,9 +263,11 @@ Create the crowdfunding database via pgAdmin 4.
 <img src = "Images/crwdfnd_db_crtd.png" width="800"/>
 <br>
 <br>
+<br>
 
 Execute the crowdfunding_db_schema.sql script in pgAdmin 4 query tool, at the crowdfunding database, to create the four tables. 
 <img src = "Images/crwdfnd_tables_crtd.png" width="800"/>
+<br>
 <br>
 <br>
 
@@ -274,14 +277,17 @@ Subcategory Table
 <img src = "Images/subcat_table_chck.png" width="800"/>
 <br>
 <br>
+<br>
 
 Category Table
 <img src = "Images/category_table_chck.png" width="800"/>
 <br>
 <br>
+<br>
 
 Contacts Table
 <img src = "Images/contacts_table_chck.png" width="800"/>
+<br>
 <br>
 <br>
 
@@ -295,26 +301,30 @@ Open the pgAdmin 4 contextual menu for each table and use the import feature to 
 
 Execute the crowdfunding_db_queries.sql script in pgAdmin 4 query tool, one at a time, to check that each table has been succesfully loaded with its data. 
 <br>
+<br>
 Subcategory Table
-<img src = "Images/subcat_table_load.png" width="800"/>
+<img src = "Images/subcat_table_load.png" width="600"/>
+<br>
 <br>
 <br>
 
 Category Table
-<img src = "Images/category_table_load.png" width="800"/>
+<img src = "Images/category_table_load.png" width="600"/>
+<br>
 <br>
 <br>
 
 Contacts Table
-<img src = "Images/contacts_table_load.png" width="800"/>
+<img src = "Images/contacts_table_load.png" width="600"/>
+<br>
 <br>
 <br>
 
 Campaign Table
-<img src = "Images/campaign_table_load.png" width="1200"/>
+<img src = "Images/campaign_table_load.png" width="800"/>
 <br>
 <br>
-
+<br>
 ---
 
 
