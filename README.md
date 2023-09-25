@@ -38,6 +38,7 @@ You will need the following software to run the ETL script:
 - JSON
 - PgAdmin 4 
 - PostgreSQL Database Server
+- The appropriate XLSX files
 <br>
 
 ## Project Structure
@@ -104,6 +105,8 @@ Export the category and subcategory DataFrames as two separate CSV files to the 
 <br>
 <br>
 
+----
+
 ## **Part 2.** 
 ##### Completed by O Dumbuya
 <br>
@@ -134,6 +137,8 @@ Export the clean campaign DataFrame as a CSV file to the Resources folder.
 <br>
 <br>
 <br>
+
+---
 
 ### **Part 3.** 
 ##### Completed by R Liu
@@ -178,26 +183,151 @@ Check the clean contacts DataFrame datatypes and export the DataFrame as a CSV f
 
 ### Option 2-Regex
 <br>
+Use Pandas to read the contacts.xlsx file and check the head 
+
+**OR**
 Make a copy of the contacts DataFrame that was created when Pandas was used to read the contacts.xlsx file in Option 1, and check the head.
 <img src = "Images/contact_df_head.png" width="1200"/>
 <br>
 
+Extract the four-digit contact ID numbers, and add them to a new column 'contact_id'.
+<img src = "Images/contact_regex4.png" width="1100"/>
+<br>
+<br>
 
+Check the datatypes.
+<img src = "Images/contact_regex_check.png" width="500"/>
+<br>
+<br>
 
+Covert the 'contact_id' column to an int64 datatype.
+<img src = "Images/contact_regex_conv_dtypes.png" width="500"/>
+<br>
+<br>
+
+i. Extract the names, and add them to a new column 'name'.
+<br>
+ii. Extract the email addresses, and add them to a new column 'email'.
+<br>
+iii. Check that the two new colums were created successfully.
+<img src = "Images/contact_regex_extracts.png" width="2000"/>
+<br>
+<br>
+
+Create a copy of the contacts DataFrame with the columns to keep: 'contact_id', 'name', 'email', and check the head. 
+<img src = "Images/contact_regex_keep_col.png" width="800"/>
+<br>
+<br>
+
+i. Create two new columns: 'first_name' and 'last_name'.
+<br>
+ii. Fill the two new columns by splitting the 'name' column.
+<br>
+iii. Drop the 'name' column, and reorder the kept columns: 'contact_id', 'first_name', 'last_name', 'email'.
+<br>
+iv. Check the Dataframe head to ensure that the columns were created, dropped, and reordered successfully.
+<img src = "Images/contact_regex_split_reord.png" width="800"/>
+<br>
+<br>
+
+Check the datatypes one final time. 
+<img src = "Images/contact_regex_final_dtypes.png" width="800"/>
+<br>
+<br>
+
+Export the DataFrame as a CSV file to the Resources folder.
+
+<br>
+<br>
 <br>
 
 ---
-*
 
+### **Part 4.** 
+##### Completed by T Barnett
+
+### Create the Crowfunding Database
+
+Create the crowdfunding database schema as a .sql file in Jupyter Notebook.
+<br>
+
+Use an ERD to check the schema tables and relationships. 
+<img src = "Images/crowdfundingERD.png" width="1000"/>
+
+<br>
+<br>
+<br>
+
+Create the crowdfunding database via pgAdmin 4. 
+<img src = "Images/crwdfnd_db_crtd.png" width="800"/>
+<br>
+<br>
+
+Execute the crowdfunding_db_schema.sql script in pgAdmin 4 query tool, at the crowdfunding database, to create the four tables. 
+<img src = "Images/crwdfnd_tables_crtd.png" width="800"/>
+<br>
+<br>
+
+Execute the crowdfunding_db_queries.sql script in pgAdmin 4 query tool, one at a time, to check that each table has been succesfully created.
+<br>
+Subcategory Table
+<img src = "Images/subcat_table_chck.png" width="800"/>
+<br>
+<br>
+
+Category Table
+<img src = "Images/category_table_chck.png" width="800"/>
+<br>
+<br>
+
+Contacts Table
+<img src = "Images/contacts_table_chck.png" width="800"/>
+<br>
+<br>
+
+Campaign Table
+<img src = "Images/campaign_table_chck.png" width="1200"/>
+<br>
+<br>
+Open the pgAdmin 4 contextual menu for each table and use the import feature to load the tables in the order they were created in the schema file.
+<br>
+<br>
+
+Execute the crowdfunding_db_queries.sql script in pgAdmin 4 query tool, one at a time, to check that each table has been succesfully loaded with its data. 
+<br>
+Subcategory Table
+<img src = "Images/subcat_table_load.png" width="800"/>
+<br>
+<br>
+
+Category Table
+<img src = "Images/category_table_load.png" width="800"/>
+<br>
+<br>
+
+Contacts Table
+<img src = "Images/contacts_table_load.png" width="800"/>
+<br>
+<br>
+
+Campaign Table
+<img src = "Images/campaign_table_load.png" width="1200"/>
+<br>
 <br>
 
 ---
+
+
+### **Part 5.** 
+##### Project Readme 
+##### Completed by T Barnett
+
 
 ---
 #### Usage
-1. Ensure that you have the appropriate CSV and XlSX files.
-2. Run the  script in an appropriate code editor such as Jupyter Notebook. 
-3. Run the app.py script in an appropriate code editor and render in a web browser such as Google Chrome with the necessary extensions, to optimize JSON, for example.
+1. Set up all software requirements 
+2. Ensure that you have the appropriate CSV and XlSX files.
+3. Run the all scripts as delineated the appropriate code editors: Jupyter Notebook and pgAdmin 4. 
 
 #### Contributions
 Contributions to this project are highly encouraged! If you wish to contribute, please follow these guidelines:
