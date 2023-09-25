@@ -1,6 +1,6 @@
 # Crowdfunding_ETL
 
-An ETL (Extract Transform Load) mini project that uses Pyhton,Pandas, Numpy to create a PostgreSQL database which is managed with PgAdmin 4 . 
+An ETL (Extract Transform Load) mini project that uses Python, Pandas, Numpy to create a PostgreSQL database which is managed with PgAdmin 4. 
 
 
 ## Table of Contents
@@ -13,14 +13,14 @@ An ETL (Extract Transform Load) mini project that uses Pyhton,Pandas, Numpy to c
 <br>
 
 #### Introduction
-This ETL project demonstrates skills to extract and transform data using two xlsx files to export four csv files, which are then used to load tables in a PostgreSQL database managed by PgAdmin 4. 
+This ETL project demonstrates skills to extract and transform data using two XLSX files to export four csv files, which are then used to load tables in a PostgreSQL database managed by PgAdmin 4. 
 - This project was completed by three persons: O Dumbuya, R Liu, and T Barnett. Each contributor's work is delineated below. 
 
 
 #### Features
 - Extract Data with Pandas 'read_excel' function. 
 
-- Use NumPy 'arrange' function and list comprehension to create dataframe  subsets.  
+- Use NumPy 'arrange' function and list comprehension to create DataFrame  subsets.  
 
 - Use Pandas 'astype' and 'to-datetime' functions to convert data types.
 
@@ -120,7 +120,7 @@ i.  Rename the 'blurb', 'launched_at' and 'deadline' columns as 'description',  
 <br>
 ii. Convert the 'goal' and 'pledged' columns data types to float. 
 <br>
-iii. Check that the columnn names and data types were changed.
+iii. Check that the column names and data types were changed.
 <img src = "Images/campaign_df_dtypes.png" width="500"/>
 <br>
 <br>
@@ -210,7 +210,7 @@ i. Extract the names, and add them to a new column 'name'.
 <br>
 ii. Extract the email addresses, and add them to a new column 'email'.
 <br>
-iii. Check that the two new colums were created successfully.
+iii. Check that the two new columns were created successfully.
 <img src = "Images/contact_regex_extracts.png" width="2000"/>
 <br>
 <br>
@@ -247,7 +247,7 @@ Export the DataFrame as a CSV file to the Resources folder.
 ### **Part 4.** 
 ##### Completed by T Barnett
 
-### Create the Crowfunding Database
+### Create the Crowdfunding Database
 
 Create the crowdfunding database schema as a .sql file in Jupyter Notebook.
 <br>
@@ -271,7 +271,7 @@ Execute the crowdfunding_db_schema.sql script in pgAdmin 4 query tool, at the cr
 <br>
 <br>
 
-Execute the crowdfunding_db_queries.sql script in pgAdmin 4 query tool, one at a time, to check that each table has been succesfully created.
+Execute the crowdfunding_db_queries.sql script in pgAdmin 4 query tool, one at a time, to check that each table has been successfully created.
 <br>
 <br>
 <br>
@@ -358,7 +358,7 @@ Campaign Table
 ---
 #### Usage
 1. Set up all software requirements 
-2. Ensure that you have the appropriate CSV and XlSX files.
+2. Ensure that you have the appropriate CSV and XLSX files.
 3. Run the all scripts as delineated the appropriate code editors: Jupyter Notebook and pgAdmin 4. 
 
 #### Contributions
